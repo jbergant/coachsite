@@ -1,0 +1,23 @@
+<section class="site-project" id="project">
+    <div class="container">
+      <div class="row">
+        {{- range ( where site.RegularPages "Section" "blog" | first 4 ) }}
+
+            <div class="col-lg-6 col-md-10 mx-auto">
+                <div class="site-project-item">
+                <div class="site-project-item-thumb">
+                    <a href="{{ .Permalink }}"><img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}"></a>
+                </div>
+                <div class="site-project-item-content">
+
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <div class="content">
+                        {{ .Summary }}
+                    </div>
+                </div>
+                </div>
+            </div>
+        {{- end}}
+        </div>
+    </div>
+</section>
