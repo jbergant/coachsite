@@ -1,6 +1,6 @@
 baseURL       = "https://prismatic-caramel-d4d449.netlify.app/"
 languageCode  = "en-us"
-title         = "Testing site"
+title         = "Let it go, let if flow"
 theme         = "roxo"
 summarylength = 25
 
@@ -16,6 +16,10 @@ summarylength = 25
     name    = "Home"
     url     = ""
     weight  = 1
+  [[menu.nav]]
+    name    = "FREE resources"
+    url     = "resources"
+    weight  = 2    
   [[menu.nav]]
     name    = "About"
     url     = "about"
@@ -70,41 +74,40 @@ summarylength = 25
     background_image      = "images/backgrounds/hero-background.png"
     heading               = "Let it go, let it flow"
     tagline               = "RELEASE WHAT NO LONGER SERVES YOU"
-    primary_button        = "See Our Works"
-    primary_button_url    = "portfolio"
+    primary_button        = "Get FREE resources"
+    primary_button_url    = "resources"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
 
-  [params.portfolio]
+  [params.resources]
     enable    = true
-    title     = "OUR RECENT WORKS"
+    title     = "FREE resources"
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
     title               = "LET’S WORK TOGETHER"
-    primary_button      = "Submit Query"
+    primary_button      = "Get in touch"
     primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
+    secondary_button    = "Read more"
+    secondary_button_url = "resources"
 
   [params.footer]
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
       address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      email   = "Anay@letitgo-letitflow.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About Company"
+          name = "About"
           url  = "about"
         [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
+          name = "Resources"
+          url  = "resources"
         [[params.footer.sitemap.link]]
           name = "Blog"
           url  = "blog"
@@ -115,18 +118,9 @@ summarylength = 25
       [params.footer.social]
         title   = "Social Media"
         [[params.footer.social.link]]
-          name = "Medium"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Behance"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Dribbble"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Instagram"
+          name = "Pinterest"
           url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "We help you:"
+        description = "let go of bad relationships and<br>beliefs that no longer serve you.<br>We help you find your true self and live it."
