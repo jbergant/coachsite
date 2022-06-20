@@ -244,7 +244,7 @@ textarea.form-control {
       .site-hero-content h1 {
         font-size: 40px; } }
   .site-hero-content-buttons {
-    margin: 0;
+    margin: 0 0 150px;
     padding: 0; }
     .site-hero-content-buttons li {
       display: inline-block; }
