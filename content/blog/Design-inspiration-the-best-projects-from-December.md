@@ -1,7 +1,7 @@
 ---
 title: "Let go of narcissist"
 date: 2019-12-24T13:45:06+06:00
-image: images/blog/dove-flies.jpeg
+image: images/blog/broken-heart.jpeg
 feature_image: images/blog/goodby-letter.jpeg
 author: Anay
 categories:
