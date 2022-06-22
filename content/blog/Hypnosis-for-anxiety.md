@@ -12,6 +12,7 @@ tags:
 - anxiety
 - self-help
 - hypnosis
+- resources
 ---
 ### Hypnosis for anxiety
 

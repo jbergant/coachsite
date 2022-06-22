@@ -18,7 +18,7 @@ summarylength = 25
     weight  = 1
   [[menu.nav]]
     name    = "FREE resources"
-    url     = "resources"
+    url     = "tags/resources/"
     weight  = 2    
   [[menu.nav]]
     name    = "About"
@@ -75,7 +75,7 @@ summarylength = 25
     heading               = "Let it go, let it flow"
     tagline               = "RELEASE WHAT NO LONGER SERVES YOU"
     primary_button        = "Get FREE resources"
-    primary_button_url    = "resources"
+    primary_button_url    = "tags/resources/"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
 
@@ -91,7 +91,7 @@ summarylength = 25
     primary_button      = "Get in touch"
     primary_button_url  = "contact"
     secondary_button    = "Read more"
-    secondary_button_url = "resources"
+    secondary_button_url = "tags/resources/"
 
   [params.footer]
     # Footer Contact Info
@@ -107,7 +107,7 @@ summarylength = 25
           url  = "about"
         [[params.footer.sitemap.link]]
           name = "Resources"
-          url  = "resources"
+          url  = "tags/resources/"
         [[params.footer.sitemap.link]]
           name = "Blog"
           url  = "blog"
