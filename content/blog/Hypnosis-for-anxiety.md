@@ -1,9 +1,9 @@
 ---
 title: "Hypnosis for anxiety"
+description: "Hypnosis for anxiety"
 date: 2019-12-24T13:40:00+06:00
 image: images/blog/hypnosis-for-anxiety.webp
 feature_image: images/blog/blog-details-image.webp
-author: Anay
 categories:
 - anxiety
 - hypnosis

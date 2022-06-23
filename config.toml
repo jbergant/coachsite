@@ -38,8 +38,9 @@ summarylength = 25
   logo = "images/logo.webp"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
+  description = "Let go of whatever no longer serves you. Find resources or get a coach. Let it go and let it flow."
+  author = "Anay"
+  og_image = "images/blog/blog-details-image.webp"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below

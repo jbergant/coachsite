@@ -1,9 +1,9 @@
 ---
-title: "Let go of narcissist"
+title: "Let go of the narcissist"
+description: "Let go of the narcissist"
 date: 2019-12-24T13:45:06+06:00
 image: images/blog/broken-heart.webp
 feature_image: images/blog/goodby-letter.webp
-author: Anay
 categories:
 - narcissist
 slug: let-go-of-narcissist
@@ -12,7 +12,7 @@ tags:
 - goodbye letter
 - bad relationship
 ---
-### Let go of narcissist
+### Let go of the narcissist
 
 Today I let go of all the things that do not serve me  
 I let go of the desire that things were different         
