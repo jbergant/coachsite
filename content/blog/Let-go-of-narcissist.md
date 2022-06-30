@@ -61,7 +61,7 @@ Goodbye from my heart, goodbye from my focus, and goodbye from my life.
 
 > Note: Do not send this to a narcissist; they would not understand; this goodbye is only for the narcissist victim's heart!
 
-![blog-details-image-02](https://user-images.githubusercontent.com/16266381/71399826-2009b380-264f-11ea-9bc3-59d7fa9a9994.jpg)
+
 
 
 
