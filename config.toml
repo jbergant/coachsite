@@ -1,4 +1,4 @@
-baseURL       = "http://letitgo-letitflow.com/"
+baseURL       = "https://letitgo-letitflow.com/"
 languageCode  = "en-us"
 title         = "Let it go, let if flow"
 theme         = "roxo"
