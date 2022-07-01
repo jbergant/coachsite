@@ -42,7 +42,7 @@ summarylength = 25
   author = "Anay"
   og_image = "images/blog/blog-details-image.webp"
   # Google Analitycs
-  googleAnalitycsID = "Your ID"
+  googleAnalitycsID = "G-F9Z3MTG2H9"
   # We're using formspree.io for form handling, paste your formspree url below
   formspreeFormUrl  = "https://formspree.io/myykjpje"
 
