@@ -1,34 +1,35 @@
 {{ define "main" }}
-
-<section class="site-blog details">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <article class="site-blog-details">
-          <p>
-            <span>            
-              {{ range $key, $value := .Params.categories }}
-                <a href="/categories/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.categories) 1) }}, {{ else }}{{ end }}
+<article class="site-blog-details">
+  <div class="backgroundimage" style="background-image: url('{{ .Params.background_image | absURL }}'); background-position: top;">
+      <h1>{{ .Title }}</h1>   
+  </div>
+  <section class="site-blog details">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">        
+            <p>
+              <span>            
+                {{ range $key, $value := .Params.categories }}
+                  <a href="/categories/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.categories) 1) }}, {{ else }}{{ end }}
+                {{ end }}
+              </span>
+            </p>
+            <p>          
+              <span>{{ .PublishDate.Format "January 2, 2006" }}</span> by <span>{{ .Params.author }}</span>
+            </p>
+            <p>
+              {{ range $key, $value := .Params.tags }}
+                <a href="/tags/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.tags) 1) }}, {{ else }}{{ end }}
               {{ end }}
-            </span>
-          </p>
-          <p>          
-            <span>{{ .PublishDate.Format "January 2, 2006" }}</span> by <span>{{ .Params.author }}</span>
-          </p>
-          <h2 class="blog-title">{{ .Title }}</h2>
-          <p>
-            {{ range $key, $value := .Params.tags }}
-              <a href="/tags/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.tags) 1) }}, {{ else }}{{ end }}
-            {{ end }}
-          </p>
-          <img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">
-          {{ .Content }}
-        </article>
+            </p>
+
+            {{ .Content }}
+        
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
+  </section>
+</article>
 {{ partial "call-to-action.html" . }}
 
 {{ end }}
