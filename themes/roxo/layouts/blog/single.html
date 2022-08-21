@@ -12,14 +12,10 @@
                 {{ range $key, $value := .Params.categories }}
                   <a href="/categories/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.categories) 1) }}, {{ else }}{{ end }}
                 {{ end }}
-              </span>
-            </p>
-            <p>          
-              <span>{{ .PublishDate.Format "January 2, 2006" }}</span> by <span>{{ .Params.author }}</span>
-            </p>
-            <p>
+              </span>   <br>    
+              <span>{{ .PublishDate.Format "January 2, 2006" }}</span> by <span>{{ .Params.author }}</span><br>
               {{ range $key, $value := .Params.tags }}
-                <a href="/tags/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.tags) 1) }}, {{ else }}{{ end }}
+                <a href="/tags/{{ $value | urlize }}">#{{ $value }}</a>{{ if ne $key (sub (len $.Params.tags) 1) }}, {{ else }}{{ end }}
               {{ end }}
             </p>
 

@@ -5,6 +5,7 @@ author: Jana Anay
 date: 2019-12-24T13:45:06+06:00
 image: images/blog/release-your-money-blocks.png
 background_image: images/blog/money-affirmations_background.png
+summary: Release your money blocks by listening to money affirmations.
 categories:
 - abundance
 - money blocks
@@ -26,9 +27,10 @@ Release your money blocks by listening to money affirmations.
 
 You can listen to afirmations while you walk, exercise, drive a car, clean your home or do anything that does not require to much of your attention. 
 
+
 You can achieve the best results and rewrite your subconscious mind by recording your own money affirmations. Your subconscious mind will best respond to your own voice.
 
-SCRIPT:
+### SCRIPT
 
 I’m abundance. I’m joy. I’m wealth.
 

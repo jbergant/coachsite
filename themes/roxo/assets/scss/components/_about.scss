@@ -14,11 +14,11 @@
   }
   &-company{
     background: $primary-color;
-    width: 40%;
-    padding: 70px 38px;
+    width: 43%;
+    padding: 140px 38px 60px;
     @include desktop{
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 2.5em;
     }
     h1{
       color: $white;
@@ -30,14 +30,14 @@
     }
   }
   &-description{
-    width: 60%;
+    width: 57%;
     padding-left: 50px;
     @include desktop{
       width: 100%;
       padding: 0 38px;
     }
     p{
-      font-size: 25px;
+      font-size: 1.4em !important;
       font-weight: 300;
       margin-bottom: 0;
     }

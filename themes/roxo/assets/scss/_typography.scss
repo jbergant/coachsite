@@ -1,7 +1,7 @@
 
 body{
   font-family: $primary-font;
-  font-size: 16px;
+  font-size: 1.2rem !important;
   color: $text-color;
   font-weight: 300;
 }
@@ -13,18 +13,20 @@ h1, h2, h3, h4, h5, h6{
 }
 
 p{
-  font-size: 16px;
+  font-size: 1.2rem !important;
   color: $text-color;
+  line-height: 1.9rem !important;
+  margin-bottom: 2.5rem;
 }
 
 h1 {
   font-size: 4rem !important;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.9rem;
 }
 
 h2 {
   font-size: 3.5rem !important;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.8rem;
   margin: 1.5rem 0 3.5rem;
 }
 

@@ -4,6 +4,7 @@ description: "Let go of the narcissist"
 date: 2019-12-24T13:45:06+06:00
 image: images/blog/broken-heart.webp
 background_image: images/blog/goodby-letter.webp
+summary: A goodby letter to the narcissist 
 categories:
 - narcissist
 slug: let-go-of-narcissist
